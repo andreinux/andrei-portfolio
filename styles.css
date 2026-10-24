@@ -18,7 +18,7 @@ header {
 }
 
 .img-container {
-    background-image: url("./img.jpg");
+    background-image: url("./images/profile.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -68,7 +68,6 @@ main{
 
 .showcase {
     display: grid;
-       border: 2px solid black;
        height: 100vh;
        width: 80vw;
 
@@ -81,11 +80,11 @@ main{
 }
 
 .card {
-    border: 1px solid black;
+    box-shadow: 0 0 15px rgb(26, 25, 25);
 }
 
 .ss-img{
-    border: 1px solid black;
+    
     height: 60%;
 }
 
@@ -96,4 +95,47 @@ main{
 
 .details {
     padding: 8px;
+}
+
+
+#weather {
+    background-image: url("./images/weather.jpg");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#tic {
+     background-image: url("./images/tic.png");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#calc {
+    background-image: url("./images/calculator-img.png");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ar{
+    background-image: url("./images/ar.png");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#kiosk {
+    background-image: url("./images/kiosk.png");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#todo {
+    background-image: url("./images/todo.png");
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
