@@ -83,3 +83,17 @@ main{
 .card {
     border: 1px solid black;
 }
+
+.ss-img{
+    border: 1px solid black;
+    height: 60%;
+}
+
+
+.info {
+    margin-top: 1rem;
+}
+
+.details {
+    padding: 8px;
+}
