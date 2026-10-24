@@ -59,4 +59,27 @@ header {
 }
 
 
+main{
+    border: 2px solid black;
+    height: auto;
+    width: 100%;
+    padding-bottom: 20px;
+}
 
+.showcase {
+    display: grid;
+       border: 2px solid black;
+       height: 100vh;
+       width: 80vw;
+
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr;
+
+       margin: 0 auto;
+       gap: 2rem 2rem;
+       margin-top: 5rem;
+}
+
+.card {
+    border: 1px solid black;
+}
