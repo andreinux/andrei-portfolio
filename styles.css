@@ -52,10 +52,13 @@ header {
     width: 50%;
     box-shadow: 0 0 15px rgba(21, 21, 21, 0.622);
 }
-
+.about h3{
+    font-size: 2rem;
+}
 .about p {
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding: 5px;
+    font-size: 18px;
 }
 
 
@@ -76,7 +79,7 @@ main{
 
        margin: 0 auto;
        gap: 2rem 2rem;
-       margin-top: 5rem;
+       margin-top: 2rem;
 }
 
 .card {
@@ -86,6 +89,12 @@ main{
 .ss-img{
     
     height: 60%;
+}
+
+main h2 {
+    margin-left: 45%;
+    font-size: 3rem;
+    margin-top: 5px;
 }
 
 
