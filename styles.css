@@ -9,12 +9,12 @@
 
 header {
    background-color: #0B91AD;
-   height: 50vh;
-
+   min-height: 50vh;
+    
    display: flex;     
   align-items: center;    
   justify-content: space-between; 
-  padding: 20px;
+  padding: 2rem 5%;
 }
 
 .img-container {
@@ -23,12 +23,11 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
 
-    width:  18%;
-    height: 90%;
-    margin-left: 300px;
-
+    width:  260px;
+    height: 350px;
+    margin: 0;
+    flex-shrink: 0;
     margin-right: 0px;
-    padding-right: 0px;
     box-shadow: 0 0 15px rgba(21, 21, 21, 0.622);
     
 
@@ -48,9 +47,10 @@ header {
     margin-right: 300px;
     background-color: white;
 
-    height: 70%; 
-    width: 50%;
+    height: auto; 
+    width: min(600px, 60%);
     box-shadow: 0 0 15px rgba(21, 21, 21, 0.622);
+    margin: 0;
 }
 .about h3{
     font-size: 2rem;
@@ -79,15 +79,13 @@ main{
 
 .showcase {
     display: grid;
-       height: 100vh;
-       width: 80vw;
+    width: min(1100px, 90%);
 
-       grid-template-columns: 1fr 1fr 1fr;
-       grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(3, minmax(0,1fr));
+    grid-template-rows: 350px 350px;
 
-       margin: 0 auto;
-       gap: 2rem 2rem;
-       margin-top: 2rem;
+    margin:2rem auto 0;
+    gap: 2rem;
 }
 
 .card {
@@ -324,3 +322,49 @@ h3 {
 
 
 
+/*media queries*/
+
+/*mobile*/
+
+@media (max-width: 500px){
+    header{
+        flex-direction: column;
+        height: auto;
+        padding: 2rem 1rem;
+    }
+    .img-container{
+        width: 200px;
+        height: 250px;
+    }
+
+    .about{
+        width: 100%;
+    }
+
+    .showcase{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 350px;
+        width: 90%;
+    }
+}
+
+/*tablet*/
+@media (max-width: 900px){
+    header{
+        gap: 1.5rem;
+        padding:2rem;
+    }
+    .img-container{
+        width: 220px;
+        height: 300px;
+    }
+
+    .about{
+        width: 60%;
+    }
+    .showcase {
+        grid-template-columns: 1fr;
+        grid-auto-rows: 350px;
+        width: 90%;
+    }
+}
