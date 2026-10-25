@@ -5,7 +5,7 @@ A personal developer portfolio showcasing my projects, technical skills, and jou
 Built with HTML, CSS, and JavaScript, with a focus on clean design, responsive layouts, and user-friendly experiences.
 
 ## Live Demo
-[View Portfolio](https://your-username.github.io/your-repo-name/)
+[View Portfolio](https://andreinux.github.io/andrei-portfolio/)
 
 ## Tech Stack
 - HTML5
