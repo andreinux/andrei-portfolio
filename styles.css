@@ -83,6 +83,11 @@ main{
 
 .card {
     box-shadow: 0 0 15px rgb(26, 25, 25);
+    transition: 0.3s ease;
+}
+
+.card:hover{
+    transform: translateY(-2px);
 }
 
 .ss-img{
@@ -105,6 +110,25 @@ main h2 {
 .details {
     padding: 8px;
 }
+
+.det-header{
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    grid-template-rows: 1fr;
+    padding-right: 10px;
+}
+
+.det-header a{
+    transition: 0.3s ease;
+}
+
+.det-header a:hover{
+    opacity: 0.5;
+}
+.det-header a:active{
+    transform: scale(0.97);
+}
+
 
 
 #weather {
@@ -236,8 +260,16 @@ footer {
       background-position: left center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    box-shadow: 0 0 15px rgb(75, 74, 74);
+    transition: 0.3s ease;
 }   
 
+.img-box:hover{
+    transform: translateY(-2px) translateX(3px);
+    opacity: 0.8;
+
+}
 
 .icon {
     width: 32px;
